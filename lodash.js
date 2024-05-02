@@ -8,8 +8,8 @@ var lose = "1123456";
 
 const pi = 3.14;
 
-dobro = "neki novi string"; //promijenit će vrijednost jer je varijabla
-pi = 10; //izbacit će error jer je konstanta (nepromjenjiva varijabla)
+//dobro = "neki novi string"; promijenit će vrijednost jer je varijabla
+//pi = 10; izbacit će error jer je konstanta (nepromjenjiva varijabla) --> razlika var i const? *VAŽNO*
 
 var jedinstveniZnakovi = function (password) {
     var mojNiz = [];

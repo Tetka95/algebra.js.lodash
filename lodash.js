@@ -5,6 +5,12 @@ var _ = require('lodash');
 
 var dobro = "12345678901234567890";
 var lose = "1123456";
+
+const pi = 3.14;
+
+dobro = "neki novi string"; //promijenit će vrijednost jer je varijabla
+pi = 10; //izbacit će error jer je konstanta (nepromjenjiva varijabla)
+
 var jedinstveniZnakovi = function (password) {
     var mojNiz = [];
     console.log("password.length = " + password.length);

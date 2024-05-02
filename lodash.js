@@ -4,7 +4,7 @@ var _ = require('lodash');
 //1.
 
 var dobro = "1234567890";
-var lose = "1123456";
+var lose = "1123456893457893456834";
 
 const pi = 3.14;
 
